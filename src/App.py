@@ -4,7 +4,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-genai.configure(api_key="AIzaSyChLjkBs-o6xYRPkfShcYZ1e6UNM_oc2EM")
+genai.configure(api_key="API-KEY")
 
 model = genai.GenerativeModel(
     model_name="gemini-1.5-flash-8b",
